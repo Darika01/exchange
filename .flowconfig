@@ -1,0 +1,30 @@
+[ignore]
+.*/node_modules/.*
+.*/build/.*
+.*/flow-typed/.*
+.*/src/serviceWorker\\.js
+.*/src/index\\.js
+.*\\.test\\.js
+config-overrides.js
+jsconfig.json
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+; module.name_mapper='api.js' -> '<PROJECT_ROOT>/src/api.js'
+; module.name_mapper='apiExchangeListings' -> '<PROJECT_ROOT>/src/apiExchangeListings.js'
+; module.name_mapper='apiICM' -> '<PROJECT_ROOT>/src/apiICM.js'
+; module.name_mapper='apiDefaultParams' -> '<PROJECT_ROOT>/src/apiDefaultParams'
+; module.name_mapper='i18n.js' -> '<PROJECT_ROOT>/src/i18n.js'
+; module.name_mapper='assets' -> '<PROJECT_ROOT>/src/assets'
+; module.name_mapper='components' -> '<PROJECT_ROOT>/src/components'
+; module.name_mapper='common-hooks' -> '<PROJECT_ROOT>/src/common-hooks'
+; module.name_mapper='context' -> '<PROJECT_ROOT>/src/context'
+; module.name_mapper='utils' -> '<PROJECT_ROOT>/src/utils'
+; suppress_comment= \\(.\\|\n\\)*\\$FlowFixMe
+
+[strict]
